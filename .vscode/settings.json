@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "c:/Users/alanz/dev/thoughtful_test/ThoughtFul/."
+    ],
+    "python.terminal.activateEnvironment": false
+}

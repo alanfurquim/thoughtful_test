@@ -124,7 +124,6 @@ class DriverProcess:
 
         while valid_data:
             for i in range(1, 11):
-                self.driver.
                 stamp = self.driver.find_element(
                     By.CSS_SELECTOR, f'body > div.page-content > ps-search-results-module > form > div.search-results-module-ajax > ps-search-filters > div > main > ul > li:nth-child({i}) > ps-promo > div > div.promo-content > p.promo-timestamp')
                 news_datetime = datetime.fromtimestamp(
